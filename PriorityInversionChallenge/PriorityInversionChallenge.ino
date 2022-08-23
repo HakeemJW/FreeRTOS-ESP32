@@ -112,7 +112,7 @@ void setup() {
   // Wait a moment to start (so we don't miss Serial output)
   vTaskDelay(1000 / portTICK_PERIOD_MS);
   Serial.println();
-  Serial.println("---FreeRTOS Priority Inversion Demo---");
+  Serial.println("---FreeRTOS Priority Inversion Challenge---");
 
   // Create semaphores and mutexes before starting tasks
   lock = xSemaphoreCreateMutex();
